@@ -14,8 +14,14 @@ Limpia y recompila un **proyecto Go**
 Limpieza total de un **proyecto Wails**
 
 **Uso:**
+
+
     ./wailsreset.sh          → modo interactivo
+
+    
     ./wailsreset.sh --full   → limpieza completa sin preguntar
+
+    
 
 **Limpia:**
 - Caché de Go
