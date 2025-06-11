@@ -10,6 +10,8 @@ Limpia y recompila un **proyecto Go**
 - Actualiza dependencias del proyecto
 - Recompila completamente desde cero
 
+---
+
 ### wailsreset.sh
 Limpieza total de un **proyecto Wails**
 
@@ -18,7 +20,6 @@ Limpieza total de un **proyecto Wails**
 
     ./wailsreset.sh          → modo interactivo
 
-    
     ./wailsreset.sh --full   → limpieza completa sin preguntar
 
     
