@@ -9,3 +9,15 @@ Limpia y recompila un **proyecto Go**
 - Borra binarios anteriores
 - Actualiza dependencias del proyecto
 - Recompila completamente desde cero
+
+### wailsreset.sh
+Limpieza total de un **proyecto Wails**
+**Uso:**
+    ./wailsreset.sh          → modo interactivo
+    ./wailsreset.sh --full   → limpieza completa sin preguntar
+**Limpia:**
+- Caché de Go
+- Binario anterior
+- Archivos temporales de Wails
+- (Opcional o automática) node_modules, dist del frontend
+- (Opcional o automática) reinstalación de dependencias frontend
